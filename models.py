@@ -13,7 +13,7 @@ class Product:
             raise ValueError("Minimum stock cannot be negative.")
 
         self.sku = sku
-        self.name = name.strip()
+        self.name = name.strip().lower()
         self.price_per_unit = price_per_unit
         self.stock = stock
         self.min_stock = min_stock
