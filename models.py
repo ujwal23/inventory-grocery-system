@@ -127,7 +127,7 @@ class Supplier:
     @classmethod
     def from_dict(cls, data):
         return cls(
-            data["suppiler_id"],
+            data["supplier_id"],
             data["name"],
             data["contact"],
             data["lead_time"]
